@@ -1,0 +1,129 @@
+* {
+    margin: 0em;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.my-work-intro-text h1 {
+    font-size: 3.5em;
+}
+.my-work-intro-text {
+    width: fit-content;
+    margin-top: 3%;
+}
+
+.my-work-content {
+    margin-top: 3%;
+}
+
+.accordion {
+    width: 85%;
+    margin: 1rem auto;
+
+}
+
+.accordion {
+    max-width: 900px;
+}
+.accordion .contentBx {
+    position: relative;
+    margin: 10px 20px;
+
+}
+.accordion .contentBx .label {
+    position: relative;
+    padding: 20px;
+    font-size: 1em;
+    /* background: rgb(252, 250, 247); */
+    color: #3a4660;
+    cursor: pointer;
+}
+
+.accordion .contentBx .label::before {
+    content: '\002B';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+.accordion .contentBx.active .label::before {
+    content: '\2212';
+}
+
+.accordion .contentBx .content {
+    position: relative;
+    
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+    overflow-y: auto;
+}
+
+.accordion .contentBx.active .content {
+    height: 150px;
+    padding: 10px;
+}
+
+
+
+/* Rest of CODE */
+
+.label {
+    padding: 30px;
+}
+.individual-label-flex h3 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.label-interior {
+    display: flex;
+    text-align: left;
+}
+.label-interior img {
+    width: 200px;
+    margin-right: 5%;
+}
+
+
+.individual-label-flex h5 {
+    color: darkgrey;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.individual-label-flex p {
+    width: 80%;
+}
+
+/* PROJECT 1 BOX */
+.avanade {
+    color: rgba(246,97,4,255);
+    text-shadow: 1px 1px 3px white;
+}
+
+/* PROJECT 2 BOX */
+
+.work-image {
+    width: 80%;
+}
+.fountain {
+    color: rgba(12,4,74,255);
+    text-shadow: 1px 1px 3px white;
+}
+
+/* PROJECT 3 BOX */
+.work-image-2 {
+    width: 180%;
+}
+
+.surveyscape {
+    color: rgba(36,107,211,255);
+}

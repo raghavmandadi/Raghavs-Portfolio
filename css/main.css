@@ -1,0 +1,80 @@
+/* GENERAL CONTENT */
+* {
+    margin: 0em;
+    font-weight: 100;
+    font-family: 'EB Garamond', serif;
+}
+body {
+    background-color: #faf6f2;
+
+    color: #3a4660;
+
+}
+main {
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+a {
+    text-decoration: none;
+    color: #3a4660;
+}
+
+/* HEADER STYLING */
+
+.name-title {
+    color: #3a4660;
+    font-weight: 500;
+    
+}
+.name-title:hover {
+    animation: colorchange 0.25s forwards;
+}
+@keyframes colorchange {
+    from {color: #3a4660;}
+    to {color: #b08401;}
+  }
+
+.universal-header {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.universal-header > nav {
+    margin-left: auto;
+    line-height: 2.5em;
+}
+.universal-header h1:hover {
+    opacity: 90%;
+}
+
+/* menu nav animation */
+
+.header-links a h2 {
+    position: relative;
+    left: 0;
+    transition: left ease 0.25s;
+}
+.header-links a h2:hover {
+    opacity: 60%;
+    left: -10px;
+}
+
+/* LOAD ANIMATION */
+
+section {
+    animation: load 0.5s;
+}
+
+@keyframes load {
+    from {
+        opacity: 0;
+
+    }
+    to {
+        opacity: 1;
+
+    }
+}
