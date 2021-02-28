@@ -1,3 +1,5 @@
+
+
 .home-intro h1 {
     font-size: 3.5em;
 }
@@ -46,3 +48,10 @@
         opacity: 1;
     }
 } */
+
+.me-image {
+    width: 750px;
+    position: absolute;
+    bottom: -10px;
+    right: 100px;
+}
