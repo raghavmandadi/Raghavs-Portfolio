@@ -45,7 +45,6 @@ img {
 }
 
 .accordion .contentBx .label::before {
-    content: '\002B';
     position: absolute;
     top: 50%;
     right: 20px;
@@ -53,7 +52,6 @@ img {
     font-size: 1.5em;
 }
 .accordion .contentBx.active .label::before {
-    content: '\2212';
 }
 
 .accordion .contentBx .content {
