@@ -4,7 +4,7 @@
     font-size: 3.5em;
 }
 .home-intro h3 {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .home-intro {
@@ -12,46 +12,70 @@
 }
 .home-intro-text {
     width: fit-content;
-    margin-top: 3%;
+    margin-top: 20%;
+    margin-right: 50px;
     padding: 5px;
 }
 .home-intro-text h1 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .home-intro-text h1 span {
     font-weight: 600;
 }
 
 .home-intro-text h3 {
-    line-height: 1em;
+    line-height: 1.2em;
     margin-bottom: 15px;
 }
 
-/* home load animation 
+/* HOME FEATURED CONTENT */
+.home-flex {
+    display: flex;
+    flex-wrap: wrap;
 
-.home-intro h1 {
-    animation: load-move 1s;
 }
-.home-intro h3 {
-    animation: load-move 1s;
-    animation-delay: 0.3s;
+.home-flex > section {
 }
-.home-intro h4 {
-    animation: load-move 0.1s;
-    animation-delay: 0.6s;
+.featuredWork {
+    width: 500px;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 80%;
 }
-@keyframes load-move {
-    from{
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-} */
+.featuredContBox {
+    width: 170px;
+    height: 200px;
+    margin: 15px;
+    padding: 15px;
+    transition: all .2s ease-in-out;
+
+    
+
+    border-radius: 10px;
+
+}
+
+.contBox1 {
+    background-color: rgba(246, 97, 4, 0.704);
+}
+.contBox2 {
+    background-color: rgba(12,4,74,0.7);
+}
+.contBox3 {
+    background-color: rgba(36,107,211,0.7);
+}
+
+
+.featuredContBox:hover { transform: scale(1.03); }
+
+
+/* HOME PAGE IMAGE */
 
 .me-image {
-    width: 750px;
+    width: 550px;
     position: absolute;
-    bottom: -10px;
-    right: 100px;
+    bottom: -120px;
+    right: -260px;
+    pointer-events: none;
 }

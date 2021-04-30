@@ -5,25 +5,24 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 body {
-    background-color: #faf6f2;
-
-    color: #3a4660;
+    background-color: white;
+    color: black;
 
 }
 main {
-    margin-right: 7%;
-    margin-left: 7%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 a {
     text-decoration: none;
-    color: #3a4660;
+    color: black;
 }
 
 /* HEADER STYLING */
 
 .name-title {
-    color: #3a4660;
+    color: black;
     font-weight: 500;
     
 }
