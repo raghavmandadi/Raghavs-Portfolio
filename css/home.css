@@ -49,9 +49,6 @@
     margin: 15px;
     padding: 15px;
     transition: all .2s ease-in-out;
-
-    
-
     border-radius: 10px;
 
 }
@@ -69,6 +66,23 @@
 
 .featuredContBox:hover { transform: scale(1.03); }
 
+
+.docLinks {
+    width: 400px;
+    padding: 100px;
+
+}
+.docLinkIntro {
+    margin-top: 10px;
+}
+.featuredDocument {
+    margin: 20px 0px;
+    border: solid 1px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    padding: 0px 10px;
+}
 
 /* HOME PAGE IMAGE */
 
