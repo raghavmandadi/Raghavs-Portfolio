@@ -1,0 +1,51 @@
+/* header */
+
+
+
+main{
+    justify-content: space-between;
+    margin: 3% 20%;
+    display: flex;
+}
+
+img {
+    max-width: 253px;
+    max-height: 253px;
+}
+
+.home-center-block1{
+    width: 60%;
+}
+.main-home-text > span {
+    opacity: 50%;
+}
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 20%;
+}
+section > a >div {
+    height: 320px;
+    width: 250px;
+    padding: 10px;
+    border: #596855 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+.btn-1 {
+    transition: all 0.3s ease;
+  }
+  .btn-1:hover {
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+ }
+
+

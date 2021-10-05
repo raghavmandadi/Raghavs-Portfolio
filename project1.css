@@ -1,0 +1,37 @@
+section {
+    margin: 0 15%;
+}
+
+.span1{
+    font-weight: 500;
+}
+.span2{
+    opacity: 50%;
+}
+
+
+.what-why-how{
+    display: flex;
+}
+.what-why-how > div {
+    width: 33%;
+    padding: 0 30px 0 0;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.defenitions {
+    display: flex;
+}
+.defenitions > div {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.challenge > div {
+    display: flex;
+    align-items: center;
+}
