@@ -17,7 +17,7 @@ img {
     width: 60%;
 }
 .main-home-text > span {
-    opacity: 50%;
+    color: #97b38f;
 }
 
 
@@ -30,7 +30,6 @@ section > a >div {
     height: 320px;
     width: 250px;
     padding: 10px;
-    border: #596855 2px solid;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -49,3 +48,6 @@ section > a >div {
  }
 
 
+.project-boxes{
+    display: none;
+}
